@@ -32,34 +32,47 @@ The company has observed a growing churn rate with no centralized system to trac
 
 ## 🗃️ Project Structure
 
-Customer-Churn-Project/
-│
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│   └─ Original Telco churn dataset
-│
-├── SQL Tasks.sql
-│   └─ SQL queries for customer segmentation and churn metric calculations
-│
-├── Python_Tasks.ipynb
-│   └─ Python notebook with churn modeling (Random Forest, XGBoost), SMOTE, and feature encoding
-│
-├── churn_risk_output.csv
-│   └─ Model output: Churn predictions for integration with Power BI
-│
-├── customer_value_segment.csv
-│   └─ CLV-based customer segmentation data
-│
-├── Customer Retension and Churn Prediction Dashboard.pbix
-│   └─ Interactive Power BI dashboard with KPIs, visual filters, and churn insights
-│
-├── Customer-Churn-Prediction-and-Retention-Dashboard.pptx
-│   └─ Project presentation summarizing the analysis, model, and insights
-│
-├── Customer Retension and Churn Prediction Dashboard.docx
-│   └─ Full project report with explanations and visual exports
-│
-└── README.md
-    └─ This file – project overview, structure, and documentation
+Thanks for confirming! To make it **perfectly formatted and aligned on GitHub**, you should use **bullet points instead of tree-like indentation**, since GitHub's markdown rendering doesn't preserve spacing or ASCII lines well.
+
+Here's a **clean, bullet-point style project structure** that looks great on GitHub:
+
+---
+
+### 📁 **Project Structure**
+
+* `WA_Fn-UseC_-Telco-Customer-Churn.csv`
+  ➤ Original Telco churn dataset
+
+* `SQL Tasks.sql`
+  ➤ SQL queries for customer segmentation and churn metrics
+
+* `Python_Tasks.ipynb`
+  ➤ Python notebook for churn modeling (Random Forest, XGBoost), SMOTE, feature encoding
+
+* `churn_risk_output.csv`
+  ➤ Output of churn predictions for Power BI integration
+
+* `customer_value_segment.csv`
+  ➤ Segmented customers by CLV (Customer Lifetime Value)
+
+* `Customer Retension and Churn Prediction Dashboard.pbix`
+  ➤ Power BI dashboard with KPIs, filters, and churn insights
+
+* `Customer-Churn-Prediction-and-Retention-Dashboard.pptx`
+  ➤ Final project presentation summarizing analysis and results
+
+* `Customer Retension and Churn Prediction Dashboard.docx`
+  ➤ Full project report with documentation and visuals
+
+* `README.md`
+  ➤ Project overview, structure, and documentation (this file)
+
+---
+
+✅ This version will display **aligned and cleanly** on GitHub without indentation issues.
+
+Let me know if you want it embedded with emojis or collapsible sections using `<details>` tags!
+
 
 
 
