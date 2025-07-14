@@ -32,17 +32,35 @@ The company has observed a growing churn rate with no centralized system to trac
 
 ## 🗃️ Project Structure
 
-📁 Customer-Churn-Project/
+Customer-Churn-Project/
 │
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv # Original dataset
-├── SQL Tasks.sql # SQL for churn segmentation and metrics
-├── Python_Tasks.ipynb # Churn model using RandomForest, XGBoost
-├── churn_risk_output.csv # Prediction output for Power BI
-├── customer_value_segment.csv # Segmentation by CLV
-├── Customer Retension and Churn Prediction Dashboard.pbix # Power BI Dashboard
-├── Customer-Churn-Prediction-and-Retention-Dashboard.pptx # Final presentation
-├── Customer Retension and Churn Prediction Dashboard.docx # Final report
-└── README.md # Project overview
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│   └─ Original Telco churn dataset
+│
+├── SQL Tasks.sql
+│   └─ SQL queries for customer segmentation and churn metric calculations
+│
+├── Python_Tasks.ipynb
+│   └─ Python notebook with churn modeling (Random Forest, XGBoost), SMOTE, and feature encoding
+│
+├── churn_risk_output.csv
+│   └─ Model output: Churn predictions for integration with Power BI
+│
+├── customer_value_segment.csv
+│   └─ CLV-based customer segmentation data
+│
+├── Customer Retension and Churn Prediction Dashboard.pbix
+│   └─ Interactive Power BI dashboard with KPIs, visual filters, and churn insights
+│
+├── Customer-Churn-Prediction-and-Retention-Dashboard.pptx
+│   └─ Project presentation summarizing the analysis, model, and insights
+│
+├── Customer Retension and Churn Prediction Dashboard.docx
+│   └─ Full project report with explanations and visual exports
+│
+└── README.md
+    └─ This file – project overview, structure, and documentation
+
 
 
 ---
